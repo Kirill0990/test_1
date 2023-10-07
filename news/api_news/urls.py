@@ -9,5 +9,5 @@ router_v1 = routers.DefaultRouter()
 router_v1.register('news', PostViewSet,  basename='news')
 
 urlpatterns = [
-    path('api/v1/', include(router_v1.urls)),
+    path('api/', include(router_v1.urls)),
 ]
