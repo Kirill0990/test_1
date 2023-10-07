@@ -22,7 +22,7 @@ sudo apt-get install mysql-client
 ```
 Восстанавливаем базу данных из дампа
 ```
-mysql -г -p -f mydb < news.sql
+mysql -u -p -f mydb < news.sql
 ```
 Установить зависимости из файла requirements.txt:
 ```
