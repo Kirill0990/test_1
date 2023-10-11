@@ -1,6 +1,5 @@
 from rest_framework import viewsets
 from datetime import datetime
-from datetime import timedelta
 from openpyxl import Workbook
 from django.http import HttpResponse
 
