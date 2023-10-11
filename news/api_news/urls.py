@@ -11,4 +11,5 @@ router_v1.register('news', PostViewSet,  basename='news')
 urlpatterns = [
     path('api/', include(router_v1.urls)),
     path('api/export/news/', views.export_to_xlsx),
+    path('api/csv/news/', views.export_csv),
 ]
