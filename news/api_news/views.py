@@ -61,7 +61,7 @@ def export_to_xlsx(request):
 
 
 def export_csv(request):
-    # Your data retrieval logic goes here
+
     data = Post.objects.all()
 
     response = HttpResponse(content_type='text/csv')
